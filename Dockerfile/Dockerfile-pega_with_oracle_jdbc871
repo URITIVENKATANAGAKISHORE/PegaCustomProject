@@ -1,0 +1,3 @@
+FROM pegasystems/pega:8.7.1
+
+COPY ./ojdbc11.jar /usr/local/tomcat/lib/ojdbc11.jar
