@@ -1,0 +1,3 @@
+FROM pegasystems/pega:8.7.1
+
+COPY ./mssql-jdbc-6.1.0.jre7.jar /usr/local/tomcat/lib/mssql-jdbc-6.1.0.jre7.jar
