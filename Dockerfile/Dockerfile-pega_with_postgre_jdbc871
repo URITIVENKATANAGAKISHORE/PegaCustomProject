@@ -1,0 +1,3 @@
+FROM pegasystems/pega:8.7.1
+
+COPY ./postgresql-42.3.3.jar /usr/local/tomcat/lib/postgresql-42.3.3.jar
